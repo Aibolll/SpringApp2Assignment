@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "com.example")
 public class AppConfig {
-
     @Bean
     public String appMessage() {
         return "Spring Application without Boot!";
